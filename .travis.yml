@@ -1,6 +1,6 @@
 language: java
+sudo: false
 
 jvm: oraclejdk8
 
-install:
-   - mvn clean install
+script: mvn clean install
