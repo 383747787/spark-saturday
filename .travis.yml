@@ -1,9 +1,8 @@
 language: java
-jvm:
+
+sudo: required
+
+jdk:
   - oraclejdk8
 
-sudo: false
-
-
-
-script: mvn clean test
+install: true
